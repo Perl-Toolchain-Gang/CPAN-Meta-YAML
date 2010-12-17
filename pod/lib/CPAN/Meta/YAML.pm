@@ -1,5 +1,24 @@
 # ABSTRACT: Read and write a subset of YAML for CPAN Meta files
 
+=head1 SYNOPSIS
+
+    use CPAN::Meta::YAML;
+
+    # methods for files
+    $yaml = CPAN::Meta::YAML->read('META.yml');
+    $yaml->write('MYMETA.yml');
+
+    # methods for strings
+    $yaml_text = $yaml->write_string;
+    $yaml = CPAN::Meta::YAML->read_string($yaml_text);
+
+    # finding the metadata
+    my $meta = $yaml->[0];
+
+    # handling errors
+    $yaml->write($file)
+      or die CPAN::Meta::YAML->errstr;
+
 =head1 DESCRIPTION
 
 This module implements a subset of the YAML specification for use in reading

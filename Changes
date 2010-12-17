@@ -2,6 +2,8 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Added a SYNOPSIS to the generated Pod
+
 0.001     2010-12-17 08:53:42 EST5EDT
 
   - Generated from ADAMK/YAML-Tiny-1.46.tar.gz
