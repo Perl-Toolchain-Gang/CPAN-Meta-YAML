@@ -34,7 +34,7 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=YAML-Tiny>
 
 =head1 SEE ALSO
 
-L<YAML>, L<YAML::Syck>, L<YAML::LibYAML>, L<YAML::XS>
+L<YAML::Tiny>, L<YAML>, L<YAML::XS>
 
 =cut
 
