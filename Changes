@@ -4,6 +4,8 @@ Revision history for CPAN-Meta-YAML
 
   - Updated SEE ALSO documentation at Ingy's request
 
+  - Remove CompileTests plugin from dist.ini
+
 0.002     2010-12-17 12:31:12 EST5EDT
 
   - Generated from ADAMK/YAML-Tiny-1.46.tar.gz
