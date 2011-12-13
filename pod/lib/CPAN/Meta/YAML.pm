@@ -4,26 +4,30 @@
 
     use CPAN::Meta::YAML;
 
-    # methods for files
-    $yaml = CPAN::Meta::YAML->read('META.yml');
-    $yaml->write('MYMETA.yml');
-
-    # methods for strings
-    $yaml_text = $yaml->write_string;
-    $yaml = CPAN::Meta::YAML->read_string($yaml_text);
+    # reading a META file
+    open $fh, "<:utf8", "META.yml";
+    $yaml_text = do { local $/; <$fh> };
+    $yaml = CPAN::Meta::YAML->read_string($yaml_text)
+      or die CPAN::Meta::YAML->errstr;
 
     # finding the metadata
-    my $meta = $yaml->[0];
+    $meta = $yaml->[0];
 
-    # handling errors
-    $yaml->write($file)
+    # writing a META file
+    $yaml_text = $yaml->write_string
       or die CPAN::Meta::YAML->errstr;
+    open $fh, ">:utf8", "META.yml";
+    print $fh $yaml_text;
 
 =head1 DESCRIPTION
 
 This module implements a subset of the YAML specification for use in reading
 and writing CPAN metadata files like F<META.yml> and F<MYMETA.yml>.  It should
 not be used for any other general YAML parsing or generation task.
+
+NOTE: META.yml (and MYMETA.yml) files should be UTF-8 encoded.  Users are
+responsible for proper encoding and decoding.  In particular, the C<read> and
+C<write> methods do B<not> support UTF-8 and should not be used.
 
 =head1 SUPPORT
 
