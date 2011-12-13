@@ -2,6 +2,8 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Generated from ADAMK/YAML-Tiny-1.50.tar.gz
+
   - Fix documentation to clarify that users are responsible for
     UTF-8 encoding/decoding
 
