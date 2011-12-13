@@ -1,0 +1,73 @@
+{
+   "abstract" : "Read and write a subset of YAML for CPAN Meta files",
+   "author" : [
+      "Adam Kennedy <adamk@cpan.org>",
+      "David Golden <dagolden@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112580",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "CPAN-Meta-YAML",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples",
+         "corpus"
+      ],
+      "package" : [
+         "DB"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "Exporter" : 0,
+            "Scalar::Util" : 0,
+            "perl" : "5.004",
+            "strict" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : 0,
+            "File::Spec::Functions" : 0,
+            "Test::More" : 0,
+            "vars" : 0
+         }
+      }
+   },
+   "provides" : {
+      "CPAN::Meta::YAML" : {
+         "file" : "lib/CPAN/Meta/YAML.pm",
+         "version" : "0.005"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-cpan-meta-yaml at rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Meta-YAML"
+      },
+      "homepage" : "https://github.com/dagolden/cpan-meta-yaml",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/dagolden/cpan-meta-yaml.git",
+         "web" : "https://github.com/dagolden/cpan-meta-yaml"
+      }
+   },
+   "version" : "0.005"
+}
+
