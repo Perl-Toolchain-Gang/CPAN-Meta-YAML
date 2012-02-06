@@ -2,6 +2,9 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Set back configure_requires prerequisite for ExtUtils::MakeMaker
+    from 6.30 to 6.17 (per request from Andreas Koenig)
+
 0.005     2011-12-13 12:57:24 EST5EDT
 
   - Generated from ADAMK/YAML-Tiny-1.50.tar.gz

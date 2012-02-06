@@ -5,7 +5,7 @@
       "David Golden <dagolden@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112580",
+   "generated_by" : "Dist::Zilla version 4.300005, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "perl_5"
    ],
@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "6.17"
          }
       },
       "runtime" : {
@@ -42,17 +42,20 @@
       },
       "test" : {
          "requires" : {
+            "File::Find" : 0,
             "File::Spec" : 0,
             "File::Spec::Functions" : 0,
+            "File::Temp" : 0,
             "Test::More" : 0,
-            "vars" : 0
+            "vars" : 0,
+            "warnings" : 0
          }
       }
    },
    "provides" : {
       "CPAN::Meta::YAML" : {
          "file" : "lib/CPAN/Meta/YAML.pm",
-         "version" : "0.005"
+         "version" : "0.006"
       }
    },
    "release_status" : "stable",
@@ -68,6 +71,6 @@
          "web" : "https://github.com/dagolden/cpan-meta-yaml"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }
 

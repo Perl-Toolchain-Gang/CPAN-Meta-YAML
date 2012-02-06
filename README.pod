@@ -2,11 +2,11 @@
 
 =head1 NAME
 
-CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
+CPAN::Meta::YAML
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
