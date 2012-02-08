@@ -55,7 +55,7 @@
    "provides" : {
       "CPAN::Meta::YAML" : {
          "file" : "lib/CPAN/Meta/YAML.pm",
-         "version" : "0.006"
+         "version" : "0.007"
       }
    },
    "release_status" : "stable",
@@ -71,6 +71,6 @@
          "web" : "https://github.com/dagolden/cpan-meta-yaml"
       }
    },
-   "version" : "0.006"
+   "version" : "0.007"
 }
 
