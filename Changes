@@ -2,6 +2,10 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Generated from ADAMK/YAML-Tiny-1.51.tar.gz
+
+  - Updated from YAML-Tiny to fix compatibility with older Scalar::Utils
+
 0.007     2012-02-07 22:42:42 EST5EDT
 
   - Generated from ADAMK/YAML-Tiny-1.50.tar.gz
