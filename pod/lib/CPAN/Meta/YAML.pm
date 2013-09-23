@@ -34,7 +34,7 @@ C<write> methods do B<not> support UTF-8 and should not be used.
 This module is currently derived from L<YAML::Tiny> by Adam Kennedy.  If
 there are bugs in how it parses a particular META.yml file, please file
 a bug report in the YAML::Tiny bugtracker:
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=YAML-Tiny>
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=YAML-Tiny>
 
 =head1 SEE ALSO
 
