@@ -2,6 +2,10 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Fix broken test when copying from YAML-Tiny
+
+  - updated Makefile.PL logic to support PERL_NO_HIGHLANDER
+
 0.009     2013-09-23 10:16:19 America/New_York
 
   - Generated from ETHER/YAML-Tiny-1.55.tar.gz
