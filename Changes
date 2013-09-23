@@ -2,6 +2,9 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+  - Makefile.PL will use UNINST=1 on old perls that might have
+    an old version incorrectly installed into the core library path
+
 0.008     2012-03-14 17:13:24 EST5EDT
 
   - Generated from ADAMK/YAML-Tiny-1.51.tar.gz
@@ -54,5 +57,4 @@ Revision history for CPAN-Meta-YAML
 
   - Generated from ADAMK/YAML-Tiny-1.46.tar.gz
 
-
-
+# vim: ts=2 sts=2 sw=2 et:
