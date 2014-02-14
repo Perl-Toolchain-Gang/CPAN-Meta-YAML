@@ -1,5 +1,5 @@
+requires "B" => "0";
 requires "Carp" => "0";
-requires "Data::Dumper" => "0";
 requires "Exporter" => "0";
 requires "Fcntl" => "0";
 requires "Scalar::Util" => "0";
@@ -35,9 +35,9 @@ on 'configure' => sub {
 };
 
 on 'develop' => sub {
-  requires "Dist::Zilla" => "5.012";
+  requires "Dist::Zilla" => "5.013";
   requires "Dist::Zilla::Plugin::AppendExternalData" => "0";
-  requires "Dist::Zilla::Plugin::Doppelgaenger" => "0.006";
+  requires "Dist::Zilla::Plugin::Doppelgaenger" => "0.007";
   requires "Dist::Zilla::Plugin::Encoding" => "0";
   requires "Dist::Zilla::Plugin::MakeMaker::Highlander" => "0.003";
   requires "Dist::Zilla::Plugin::PkgVersion" => "0";
