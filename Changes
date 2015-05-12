@@ -2,6 +2,10 @@ Revision history for CPAN-Meta-YAML
 
 {{$NEXT}}
 
+0.015     2015-05-11 22:01:58-04:00 America/New_York (TRIAL RELEASE)
+
+  - Generated from ETHER/YAML-Tiny-1.67.tar.gz
+
 0.014     2015-03-16 19:22:12-04:00 America/New_York
 
   - Generated from ETHER/YAML-Tiny-1.66.tar.gz
